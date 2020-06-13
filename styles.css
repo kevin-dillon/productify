@@ -54,11 +54,13 @@ body {
 
 .name {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
   margin-top: 20px;
 }
 
 .contact-title {
-  margin-bottom: 30px;
+  margin-bottom: 90px;
+}
 
+.contact-icon {
+  margin: 10px;
 }
