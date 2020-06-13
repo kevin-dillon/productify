@@ -1,3 +1,4 @@
+// PRODUCTIVITY
 let productivityEntries=[
     'Listening to ambient noises while working helps some people get things done faster.',
     'While multitasking may seem like a good idea, it can hurt effectiveness of the tasks you are doing.',
@@ -28,4 +29,30 @@ function displayProductivity() {
     <p>${productivityEntries[index]}</p>
     </div>`;
     div.innerHTML=productivity;
+}
+
+// PHYSICAL HEALTH
+let physicalEntries=[
+    'Exercise with family.',
+    'Stand up or walk around while you read and answer emails and other messages on your laptop or phone.',
+    'Listen to music and dance.',
+    'Try to do some exercise each day for at least 10 minutes.',
+    'Do exercise while watching tv.',
+    'Eat nutritious foods like fruits or vegetables.',
+    'Stay hydrated, keep a refillable water bottle and drink it throughout the day.',
+    'Take short active breaks during the day.',
+    'Try to follow a video exercise routine or an online exercise class.',
+    'Stand up as much as possible.',
+    'Limit foods high in sodium, added sugar and saturated fat.',
+    'Wash your hands thoroughly for at least 20 seconds.',
+    'Maintain a low-carb, high-fat diet to sustain your energy throughout the day.',
+];
+
+function displayPhysical() {
+    let index=Math.floor(Math.random()*physicalEntries.length);
+    let div=document.querySelector('#physical-health');
+    let physical-health=`<div class="card">
+    <p>${physicalEntries[index]}</p>
+    </div>`;
+    div.innerHTML=physical-health;
 }
