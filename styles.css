@@ -8,16 +8,8 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 900;
 }
 
-.big-title {
-  margin-right: 20px;
-  margin-left: 15px;
-  margin-top: 50px;
-  font-size: 35px;
-  margin-bottom: 300px;
-}
-
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 1% 15%;
 }
 
 .navbar-brand{
@@ -31,6 +23,20 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat-Light', sans-serif;
 }
 
+.display-4 {
+  margin-top: 70px;
+  margin-left: 15px;
+}
+
+.card-text {
+  margin-left: 15px;
+}
+
+.card-text-align{
+  margin-bottom: 120px;
+  margin-left: 15px;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -40,20 +46,21 @@ body {
   height: 150px;
 }
 
-#Contact {
-  text-align: center;
-  padding: 7% 15%;
-  background-color: #a7d7c5;
-}
 
 #Inspiration {
   text-align: center;
   padding: 7% 15%;
 }
 
-.name {
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 20px;
+.insp-icon {
+  margin-bottom: 20px;
+  color:#EECCC6
+}
+
+#Contact {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #a7d7c5;
 }
 
 .contact-title {
@@ -64,34 +71,7 @@ body {
   margin: 10px;
 }
 
-.inspir-buttons {
-  border: none;
-  margin: 4px 2px;
-  text-decoration: none;
-  cursor: pointer;
-  color: #000000;
-
-}
-
-.productivity {
-  float: left;
-  color: #000000;
-
-}
-
-.physical-health {
-  float: center;
-}
-
-.mental-health {
-  float: right;
-}
-
-.insp-icon {
-  margin-bottom: 20px;
-  color:#EECCC6
-}
-
-.display-4 {
-  margin-bottom: 50px;
+.name {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
 }
