@@ -108,6 +108,10 @@ body {
   height: 150px;
 }
 
+.explanation{
+  background-color: #e5dfdf;
+}
+
 .card {
   border: none;
 }
