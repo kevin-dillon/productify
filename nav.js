@@ -7,9 +7,9 @@ div.innerHTML = `
 
 
         <!-- Nav Bar -->
-        
+
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="#"><i class="fas fa-clipboard-list"></i> productify</a>
+          <a class="navbar-brand" href="index.html"><i class="fas fa-clipboard-list"></i> productify</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -20,7 +20,7 @@ div.innerHTML = `
                 <a class="nav-link" href="index.html#About">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html#Inspiration">Inspiration</a>
+                <a class="nav-link" href="index.html#Tips">Tips</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="index.html#Contact">Contact</a>
