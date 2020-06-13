@@ -9,10 +9,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .big-title {
+  margin-right: 20px;
   margin-left: 15px;
   margin-top: 50px;
   font-size: 35px;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 
 .container-fluid {
@@ -28,7 +29,6 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 18px;
   margin: 25px;
   font-family: 'Montserrat-Light', sans-serif;
-
 }
 
 body {
@@ -90,4 +90,8 @@ body {
 .insp-icon {
   margin-bottom: 20px;
   color:#EECCC6
+}
+
+.display-4 {
+  margin-bottom: 50px;
 }
