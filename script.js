@@ -116,8 +116,9 @@ function displayMental() {
 }
 
 function expandMental() {
-  let div=document.querySelector('#mental');
+  let div=document.querySelector('#exp');
   let mental=`<div class='card'>
   <p>${mentalExp[displayMental()]}</p>
   </div>`;
+  div.innerHTML=mental;
 }
