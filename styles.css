@@ -1,5 +1,5 @@
 #title{
-  background-color: #6ba8a9;
+  background-color: #74b49b;
   color: white;
 }
 
@@ -44,10 +44,21 @@ body {
 #Contact {
   text-align: center;
   padding: 7% 15%;
-  background-color: #6ba8a9;
+  background-color: #a7d7c5;
 }
 
 #Inspiration {
   text-align: center;
   padding: 7% 15%;
+}
+
+.name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.contact-title {
+  margin-bottom: 30px;
+
 }
