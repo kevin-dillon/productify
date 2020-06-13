@@ -66,7 +66,6 @@ body {
 
 .inspir-buttons {
   border: none;
-  padding: 15px 32px;
   margin: 4px 2px;
   text-decoration: none;
   cursor: pointer;
@@ -86,4 +85,9 @@ body {
 
 .mental-health {
   float: right;
+}
+
+.insp-icon {
+  margin-bottom: 20px;
+  color:#EECCC6
 }
