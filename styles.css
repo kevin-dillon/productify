@@ -49,6 +49,15 @@ body {
   font-family: 'Montserrat-Light', sans-serif;
 }
 
+/* Webpage title for each topic */
+.pageTitle{
+  font-family: 'Montserrat';
+  color: #EECCC6;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -50px;
+}
+
 /* Tips Styling */
 
 #Tips {
@@ -59,6 +68,12 @@ body {
 .insp-icon {
   margin-bottom: 20px;
   color:#EECCC6
+}
+
+/* Generate Tips Button */
+.btn{
+  background-color: #add9be;
+  color: #FFFFFF;
 }
 
 /* Contact Styling */
