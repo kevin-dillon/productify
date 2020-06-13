@@ -25,7 +25,7 @@ let productivityEntries=[
 function displayProductivity() {
     let index=Math.floor(Math.random()*productivityEntries.length);
     let div=document.querySelector('#productivity');
-    let productivity=`<div class="card">
+    let productivity=`<div class='card'>
     <p>${productivityEntries[index]}</p>
     </div>`;
     div.innerHTML=productivity;
@@ -51,7 +51,7 @@ let physicalEntries=[
 function displayPhysical() {
     let index=Math.floor(Math.random()*physicalEntries.length);
     let div=document.querySelector('#physical');
-    let physical=`<div class="card">
+    let physical=`<div class='card'>
     <p>${physicalEntries[index]}</p>
     </div>`;
     div.innerHTML=physical;
@@ -59,33 +59,33 @@ function displayPhysical() {
 
 //MENTAL Health
 
-let mentalEntries = {
-  "Write down your schedule for your day."
-  "Reach out to a friend you haven’t spoken to in a while (conversation starters: what you’ve been doing in quarantine, how you’ve (re)designed your workspace, what you’re looking forward to once quarantine is over, have you picked up any new hobbies, etc.)"
-  "Take a nap."
-  "Log off of social media for the rest of the day (if your work permits)."
-  "Schedule a movie night with friends or family."
-  "Write down your thoughts in a journal."
-  "Get dressed."
-  "Block news channels on your devices and ask your friends to give you a quick debriefing."
-  "Clean your work area."
-  "Leave the house (while staying socially distant)."
-  "Write down what you want to achieve today."
-  "Give your friend a compliment."
-  "Say no. Set boundaries."
-  "Check in on friends and family."
-  "Take some time for yourself."
-  "Take in the present."
-  "Stand up."
-  "Close your eyes for 20 seconds."
-  "Keep in touch with your friends and family."
-  "Develop a work buddy system to keep yourselves accountable."
-}
+let mentalEntries = [
+  'Write down your schedule for your day.',
+  'Reach out to a friend you haven’t spoken to in a while (conversation starters: what you’ve been doing in quarantine, how you’ve (re)designed your workspace, what you’re looking forward to once quarantine is over, have you picked up any new hobbies, etc.)',
+  'Take a nap.',
+  'Log off of social media for the rest of the day (if your work permits).',
+  'Schedule a movie night with friends or family.',
+  'Write down your thoughts in a journal.',
+  'Get dressed.',
+  'Block news channels on your devices and ask your friends to give you a quick debriefing.',
+  'Clean your work area.',
+  'Leave the house (while staying socially distant).',
+  'Write down what you want to achieve today.',
+  'Give your friend a compliment.',
+  'Say no. Set boundaries.',
+  'Check in on friends and family.',
+  'Take some time for yourself.',
+  'Take in the present.',
+  'Stand up.',
+  'Close your eyes for 20 seconds.',
+  'Keep in touch with your friends and family.',
+  'Develop a work buddy system to keep yourselves accountable.',
+]
 
 function displayMental() {
     let index=Math.floor(Math.random()*mentalEntries.length);
     let div=document.querySelector('#mental');
-    let mental=`<div class="card">
+    let mental=`<div class='card'>
     <p>${mentalEntries[index]}</p>
     </div>`;
     div.innerHTML=mental;
