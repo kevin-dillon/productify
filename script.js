@@ -48,6 +48,22 @@ let physicalEntries=[
     'Maintain a low-carb, high-fat diet to sustain your energy throughout the day.',
 ];
 
+let physicalExp=[
+    'Exercising is a great way to improve energy levels. Doing so with family helps you stay motivated and connects you to each other.',
+    'For many people, their days are very sedentary. Walking around while still doing work allows you to maximize your time while allowing you to change positions.',
+    'Let out your emotions and dance to your favorite songs to get your blood flowing and take a break from your screen.',
+    'Watch some Youtube workout videos to learn which exercises you can do at home.',
+    'It can be difficult to find time to exercise. Running on the treadmill or stretching while watching TV helps you decompress after a long day while still staying active.',
+    'Feed your brain with the nutrients it needs.',
+    'Water is essential to heightening your brain function and maintaining energy levels.',
+    'Taking breaks will help you focus better.',
+    "If you're not sure what to do for exercise, following along with an instructional video from trained professionals will help you stay active and connect with other people.",
+    'Opt in for a standing desk or move to a different location to work every once in a while. Take a break to spend time with those around you to limit your screen time as well.',
+    'These foods stay in your bloodstream for longer periods of time and are harder to break down. Opt for protein instead.',
+    'Limit your risk of getting sick by making sure points of contact are cleaned regularly.',
+    'Carbohydrates are absorbed immediately while fats take longer to break down, thereby sustaining your energy for longer. Examples of fat-rich foods include nuts, seeds, avocado, eggs, and olives.',
+];
+
 function displayPhysical() {
     let index=Math.floor(Math.random()*physicalEntries.length);
     let div=document.querySelector('#physical');
@@ -55,6 +71,15 @@ function displayPhysical() {
     <p>${physicalEntries[index]}</p>
     </div>`;
     div.innerHTML=physical;
+    return index;
+}
+
+function expandPhysical() {
+  let div=document.querySelector('#expPhys');
+  let physical=`<div class='card'>
+  <p>${physicalExp[displayPhysical()]}</p>
+  </div>`;
+  div.innerHTML=physical;
 }
 
 //MENTAL Health
