@@ -64,3 +64,27 @@ body {
 .contact-icon {
   margin: 10px;
 }
+
+.inspir-buttons {
+  border: none;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000000;
+
+}
+
+.productivity {
+  float: left;
+  color: #000000;
+
+}
+
+.physical-health {
+  float: center;
+}
+
+.mental-health {
+  float: right;
+}
