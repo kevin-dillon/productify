@@ -50,9 +50,9 @@ let physicalEntries=[
 
 function displayPhysical() {
     let index=Math.floor(Math.random()*physicalEntries.length);
-    let div=document.querySelector('#physical-health');
-    let physical-health=`<div class="card">
+    let div=document.querySelector('#physical');
+    let physical=`<div class="card">
     <p>${physicalEntries[index]}</p>
     </div>`;
-    div.innerHTML=physical-health;
+    div.innerHTML=physical;
 }
