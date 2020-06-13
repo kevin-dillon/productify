@@ -80,7 +80,30 @@ let mentalEntries = [
   'Close your eyes for 20 seconds.',
   'Keep in touch with your friends and family.',
   'Develop a work buddy system to keep yourselves accountable.',
-]
+];
+
+let mentalExp = [
+  'Writing down your schedule implements structure in your day, which can help you stay motivated.',
+  'wow.',
+  'naptime.',
+  'no social media.',
+  'where do cows like to go? to the moovies.',
+  'journal.',
+  'put on clothes.',
+  'no news.',
+  'tidy.',
+  'go outside.',
+  'goals.',
+  'compliment.',
+  'no.',
+  'Check in.',
+  'Take some time for yourself.',
+  'Take in the present.',
+  'Stand up.',
+  'Close your eyes for 20 seconds.',
+  'Keep in touch with your friends and family.',
+  'Develop a work buddy system to keep yourselves accountable.',
+];
 
 function displayMental() {
     let index=Math.floor(Math.random()*mentalEntries.length);
@@ -89,4 +112,13 @@ function displayMental() {
     <p>${mentalEntries[index]}</p>
     </div>`;
     div.innerHTML=mental;
+    return index;
+}
+
+function expandMental() {
+  let div=document.querySelector('#exp');
+  let mental=`<div class='card'>
+  <p>${mentalExp[displayMental()]}</p>
+  </div>`;
+  div.innerHTML=mental;
 }
