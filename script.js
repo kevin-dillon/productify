@@ -176,7 +176,7 @@ function displayMental() {
 function expandMental() {
   let div=document.querySelector('#exp');
   let mental=`<div class='explanation'>
-  <p>${mentalExp[0]}</p>
+  <p>${mentalExp[displayMental()]}</p>
   </div>`;
   div.innerHTML=mental;
 }
