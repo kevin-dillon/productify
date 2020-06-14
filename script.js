@@ -60,7 +60,7 @@ function displayProductivity() {
 
 function expandProductivity() {
     let div=document.querySelector('#expProductivity');
-    let productivity=`<div class='card'>
+    let productivity=`<div class='card bg-transparent'>
     <p>${productivityExp[displayProductivity()]}</p>
     </div>`;
     div.innerHTML=productivity;
@@ -111,7 +111,7 @@ function displayPhysical() {
 
 function expandPhysical() {
   let div=document.querySelector('#expPhys');
-  let physical=`<div class='card'>
+  let physical=`<div class='card bg-transparent'>
   <p>${physicalExp[displayPhysical()]}</p>
   </div>`;
   div.innerHTML=physical;
