@@ -23,32 +23,52 @@ let productivityEntries=[
 ];
 
 let productivityExp=[
-  '<h1 class="exp-header">It can reduce stress</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+  '<h1 class="exp-header">Planning ahead</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
        ><ul class="exp-text"><li>Knowing what you need to to in advance is key to productivity</li><li>\
       You will be less stressed since you already have a plan</li> </ul>',
-    'Some people work better with no noises, but immersion in ambient music can help reduce anxiety by \
-    allowing people to put aside what is on their mind and focus on their surroundings.',
-    'It is unsustainable.Switching between tasks makes it difficult to tune out distractions and can cause \
-    mental blocks that can slow you down. Ultimately, multitasking results in less effective and efficient \
-    work with decreased mental organizational capabilities.',
-    'If you do not have room to move around, dedicate a specific area for work only.',
-    'You can write on paper or on something like your phone.',
-    'Doing one part is better than doing nothing.',
-    'Noise-cancelling earphones are nice if you can afford them.',
-    'Try not to overwork youself.',
-    'Write this down on your calendar.',
-    'A task can seem less daunting from this perspective.',
-    'Set notifications a week before a deadline,',
-    'It is more time efficient if you make a mistake.',
-    'You do not have to memorize all of them, but adding a couple frequently used shortcuts to your repertoire can be beneficial.',
-    'There are variations of this method, see which one works best for you.',
-    'Completing any task, even a small one, is an accomplishment.',
-    'This does not apply to when taking tests/exams, get the easier questions out of the way first in that situation.',
-    'Some people get phantom phone buzzes, where they feel notifications when there is not one.',
-    'Another option is text-to-speech..',
-    'It can be hard for your mind to adjust to this.',
-    'Most newsletter emails have an "unsubscribe" button at the button of the page.',
-    'Burning youself out is a real thing, and can have immediate consequences.',
+      '<h1 class="exp-header">Focus time</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+      ><ul class="exp-text"><li>Some people work better with no noises, but immersion in ambient music can help reduce anxiety by \
+    allowing people to put aside what is on their mind and focus on their surroundings.</li> </ul>',
+    '<h1 class="exp-header">One at a time.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>It is unsustainable.</li><li>Switching between tasks makes it difficult to tune out distractions and can cause \
+    mental blocks that can slow you down.</li><li>Ultimately, multitasking results in less effective and efficient \
+    work with decreased mental organizational capabilities.</li> </ul>',
+    '<h1 class="exp-header">Work area</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>If you do not have room to move around, dedicate a specific area for work only.</li> </ul>',
+       '<h1 class="exp-header">Write it down</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>You can write on paper or on something like your phone.</li> </ul>',
+       '<h1 class="exp-header">One > Nothing</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Doing one part is better than doing nothing.</li> </ul>',
+       '<h1 class="exp-header">Keep it quiet</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Noise-cancelling earphones are nice if you can afford them.</li> </ul>',
+       '<h1 class="exp-header">Work enough, but not too much</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Try not to overwork youself.</li> </ul>',
+       '<h1 class="exp-header">Keep a calendar</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Write this down on your calendar.</li> </ul>',
+       '<h1 class="exp-header">Change perspectives</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>A task can seem less daunting from this perspective.</li> </ul>',
+       '<h1 class="exp-header">Get the dates in your head!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Set notifications a week before a deadline.</li> </ul>',
+       '<h1 class="exp-header">Efficiency is key</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>It is more time efficient if you make a mistake.</li> </ul>',
+       '<h1 class="exp-header">Keyboard Shortcuts</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>You do not have to memorize all of them, but adding a couple frequently used shortcuts to your repertoire can be beneficial.</li> </ul>',
+       '<h1 class="exp-header">Pomodor Technique</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>There are variations of this method, see which one works best for you.</li> </ul>',
+    '<h1 class="exp-header">One at a time</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Completing any task, even a small one, is an accomplishment.</li> </ul>',
+       '<h1 class="exp-header">Get it out of the way</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>This does not apply to when taking tests/exams, get the easier questions out of the way first in that situation.</li> </ul>',
+       '<h1 class="exp-header">Limit notifications!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Some people get phantom phone buzzes, where they feel notifications when there is not one.',
+       '<h1 class="exp-header">Record yourself!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Another option is text-to-speech.</li> </ul>',
+       '<h1 class="exp-header">Keep it consistent</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>It can be hard for your mind to adjust to this.</li> </ul>',
+    '<h1 class="exp-header">Unsubscribe!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Most newsletter emails have an "unsubscribe" button at the button of the page.</li> </ul>',
+    '<h1 class="exp-header">Do not burn out!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Burning youself out is a real thing, and can have immediate consequences.</li> </ul>',
 ];
 
 function displayProductivity() {
@@ -151,16 +171,16 @@ let mentalExp = [
     '<h1 class="exp-header">Tired?</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179983.svg"\
          ><ul class="exp-text"><li>20 minutes is the sweet spot for a power nap</li><li>Naps can leave you feeling more alert, energetic, and productive, however, napping 30-60 minutes can leave you even groggier.</li><li>For maximum efficiency, rest in a cool, dark room free from distractions.</li> </ul>',
     '<h1 class="exp-header">Social Media Detox</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179634.svg"  ><ul class="exp-text"><li>Another option is to disable an app to prevent yourself from using it.</li><li>Turn off your phone or put it in another room to limit the urge to go check your phone.</li> </ul>',
-    '<h1 class="exp-header">Quality Time</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179616.svg"  ><ul class="exp-text"><li>Allows you to spend time with people you care about.</li><li>Sit back and relax for a couple of hours enjoying time with your friends and family, or even just by yourself. You deserve a break.</li> </ul>',
-    '<h1 class="exp-header">Journal</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179647.svg"  ><ul class="exp-text"><li>It is important to be aware of your thoughts and acknowledging how you feel. </li><li>Journaling can calm your thoughts down a bit and ease your stress</li> </ul>',
-    '<h1 class="exp-header">News Detox</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179974.svg"  ><ul class="exp-text"><li>Seeing bad news can be detrimental to your mental health.</li><li>If you want to still be in the loop of current events, we would suggest limiting your time spent on the news, or talking to a friend about current events. This can foster growth and you can learn new perspectives.</li> </ul>',
+    '<h1 class="exp-header">Quality Time</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179616.svg"  ><ul class="exp-text"><li>Allows you to spend time with people you care about.</li><li>Sit back and relax for a couple of hours enjoying time with your friends and family, or even just by yourself.</li><li>You deserve a break.</li> </ul>',
+    '<h1 class="exp-header">Journal</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179647.svg"  ><ul class="exp-text"><li>It is important to be aware of your thoughts and acknowledging how you feel.</li><li>Journaling can calm your thoughts down a bit and ease your stress</li> </ul>',
+    '<h1 class="exp-header">News Detox</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179974.svg"  ><ul class="exp-text"><li>Seeing bad news can be detrimental to your mental health.</li><li>If you want to still be in the loop of current events, we would suggest limiting your time spent on the news, or talking to a friend about current events.</li><li>This can foster growth and you can learn new perspectives.</li> </ul>',
     '<h1 class="exp-header">Clean!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2966/2966174.svg"  ><ul class="exp-text"><li>It can be a change of activity and you get a result of a clean workspace.</li><li>Cleaning your work space can allow for deeper focus due to working in an uncluttered area + it will give you a sense of accomplishment.</li> </ul>',
-    '<h1 class="exp-header">Step Outside!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179995.svg"  ><ul class="exp-text"><li>Go for a walk/run and enjoy the outdoors if you can. Taking a breath of fresh air can be very relaxing and ease your stress a bit.</li><li>Since we are stuck in quarantine, it is super important to still be moving around.</li> </ul>',
-    '<h1 class="exp-header">Plan</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179657.svg"  ><ul class="exp-text"><li>Similar to planning out your day, writing down one goal make you excited about the day and make you more likely to work towards that goal.</li><li>Crossing off that goal at the end of the day will give you a huge sense of accomplishment. Even if you do not complete it, you still worked towards a goal!</li> </ul>',
+    '<h1 class="exp-header">Step Outside!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179995.svg"  ><ul class="exp-text"><li>Go for a walk/run and enjoy the outdoors if you can.</li><li>Taking a breath of fresh air can be very relaxing and ease your stress a bit.</li><li>Since we are stuck in quarantine, it is super important to still be moving around.</li> </ul>',
+    '<h1 class="exp-header">Plan</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179657.svg"  ><ul class="exp-text"><li>Similar to planning out your day, writing down one goal make you excited about the day and make you more likely to work towards that goal.</li><li>Crossing off that goal at the end of the day will give you a huge sense of accomplishment.</li><li>Even if you do not complete it, you still worked towards a goal!</li> </ul>',
     '<h1 class="exp-header">No!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179633.svg"  ><ul class="exp-text"><li>Don\'t be afraid to say no!</li><li>It\'s important to be able to set boundaries, whether its social or work related.</li> </ul>',
-    '<h1 class="exp-header">Check In</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179665.svg"  ><ul class="exp-text"><li>Reach out to friends and family. It will be super nice to catch up with them and see how they\'re doing.</li><li>Many of us are stuck in isolation and would definitely appreciate you reaching out to them.</li> </ul>',
-    '<h1 class="exp-header">The Present</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179662.svg"  ><ul class="exp-text"><li>It may be hard to see right now, but there will be a time where the problems you\'re facing will subside.</li><li>It\'s important to be able to stay in the present rather than worrying about the past or future. It\'s way easier said than done, but focus on the present by pushing out negative thoughts and trying to immerse yourself in your work or activity you enjoy.</li> </ul>',
-    '<h1 class="exp-header">Stand Up!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179963.svg"  ><ul class="exp-text"><li>It sounds, and is super simple. Stand up and do some stretches or walk around your room.</li><li>A professor at Waterloo says individuals should be standing up for 30 mins per hour to get health benefits.</li><li>Sitting for long periods of time is detrimental to health. Your quads can become tight and posture can worsen.</ul>',
+    '<h1 class="exp-header">Check In</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179665.svg"  ><ul class="exp-text"><li>Reach out to friends and family.</li><li>It will be super nice to catch up with them and see how they\'re doing.</li><li>Many of us are stuck in isolation and would definitely appreciate you reaching out to them.</li> </ul>',
+    '<h1 class="exp-header">The Present</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179662.svg"  ><ul class="exp-text"><li>It may be hard to see right now, but there will be a time where the problems you\'re facing will subside.</li><li>It\'s important to be able to stay in the present rather than worrying about the past or future.</li><li>It\'s way easier said than done, but focus on the present by pushing out negative thoughts and trying to immerse yourself in your work or activity you enjoy.</li> </ul>',
+    '<h1 class="exp-header">Stand Up!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179963.svg"  ><ul class="exp-text"><li>It sounds, and is super simple.</li><li>Stand up and do some stretches or walk around your room.</li><li>A professor at Waterloo says individuals should be standing up for 30 mins per hour to get health benefits.</li><li>Sitting for long periods of time is detrimental to health.</li><li>Your quads can become tight and posture can worsen.</ul>',
     '<h1 class="exp-header">Accountability</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179971.svg"  ><ul class="exp-text"><li>Having a study buddy or friend to keep you accountable can help you be motivated to do work.</li><li>You can be each other\'s cheerleaders and encourage them to be more productive.</li> </ul>',
 ];
 
