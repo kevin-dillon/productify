@@ -84,9 +84,18 @@ let physicalEntries=[
 ];
 
 let physicalExp=[
-    'Exercising is a great way to improve energy levels. Doing so with family helps you stay motivated and connects you to each other.',
-    'For many people, their days are very sedentary. Walking around while still doing work allows you to maximize your time while allowing you to change positions.',
-    'Let out your emotions and dance to your favorite songs to get your blood flowing and take a break from your screen.',
+    '<h1 class="exp-header">Connect through physical activity.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" \
+        alt="computer rocket image"><ul class="exp-text"><li>Exercising is a great way to improve energy levels</li><li>\
+        Doing so with family helps you stay motivated and connects you to each other</li> </ul>',
+    '<h1 class="exp-header">Work while standing.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" \
+        alt="computer rocket image"><ul class="exp-text"><li>For many people, long days are spent sitting</li><li>\
+        Walking around while still doing work allows you to maximize your time and move around</li> </ul>',
+    '<h1 class="exp-header">Dance it out.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" \
+        alt="computer rocket image"><ul class="exp-text"><li>Express your emotions creatively</li><li>\
+        Dance to your favorite songs to get your blood flowing and take a break from your screen</li> </ul>',
+    '<h1 class="exp-header">Dance it out.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" \
+        alt="computer rocket image"><ul class="exp-text"><li>Express your emotions creatively</li><li>\
+        Dance to your favorite songs to get your blood flowing and take a break from your screen</li> </ul>',
     'Watch some Youtube workout videos to learn which exercises you can do at home.',
     'It can be difficult to find time to exercise. Running on the treadmill or stretching while watching TV helps you decompress after a long day while still staying active.',
     'Feed your brain with the nutrients it needs.',
@@ -112,7 +121,7 @@ function displayPhysical() {
 function expandPhysical() {
   let div=document.querySelector('#expPhys');
   let physical=`<div class='card bg-transparent'>
-  <p>${physicalExp[displayPhysical()]}</p>
+  <p>${physicalExp[0]}</p>
   </div>`;
   div.innerHTML=physical;
 }
@@ -173,7 +182,7 @@ function displayMental() {
 function expandMental() {
   let div=document.querySelector('#exp');
   let mental=`<div class='explanation'>
-  <p>${mentalExp[displayMental()]}</p>
+  <p>${mentalExp[0]}</p>
   </div>`;
   div.innerHTML=mental;
 }
