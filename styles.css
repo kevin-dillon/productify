@@ -38,6 +38,11 @@ body {
   margin-left: 15px;
 }
 
+.raiser {
+  margin-top: -125px;
+  margin-bottom: 25px;
+}
+
 /* Nav Bar Styling */
 
 .navbar-brand{
