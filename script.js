@@ -23,6 +23,9 @@ let productivityEntries=[
 ];
 
 let productivityExp=[
+  '<h1 class="exp-header">It can reduce stress</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       ><ul class="exp-text"><li>Knowing what you need to to in advance is key to productivity</li><li>\
+      You will be less stressed since you already have a plan</li> </ul>',
     'Some people work better with no noises, but immersion in ambient music can help reduce anxiety by \
     allowing people to put aside what is on their mind and focus on their surroundings.',
     'It is unsustainable.Switching between tasks makes it difficult to tune out distractions and can cause \
@@ -58,9 +61,10 @@ function displayProductivity() {
     return index;
 }
 
+
 function expandProductivity() {
     let div=document.querySelector('#expProductivity');
-    let productivity=`<div class='card bg-transparent'>
+    let productivity=`<div class='explanation'>
     <p>${productivityExp[displayProductivity()]}</p>
     </div>`;
     div.innerHTML=productivity;
