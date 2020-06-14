@@ -126,19 +126,15 @@ let mentalEntries = [
     'Log off of social media for the rest of the day (if your work permits).',
     'Schedule a movie night with friends or family.',
     'Write down your thoughts in a journal.',
-    'Get dressed.',
     'Block news channels on your devices and ask your friends to give you a quick debriefing.',
     'Clean your work area.',
     'Leave the house (while staying socially distant).',
     'Write down what you want to achieve today.',
-    'Give your friend a compliment.',
     'Say no. Set boundaries.',
     'Check in on friends and family.',
-    'Take some time for yourself.',
     'Take in the present.',
     'Stand up.',
     'Close your eyes for 20 seconds.',
-    'Keep in touch with your friends and family.',
     'Develop a work buddy system to keep yourselves accountable.',
 ];
 
@@ -149,24 +145,21 @@ let mentalExp = [
     '<h1 class="exp-header">Reconnecting.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" \
         alt="computer rocket image"><ul class="exp-text"><li>Connecting with people again can help your mental health.</li><li>\
         You can rekindle past friendships and talk to someone new</li> </ul>',
-    '<h1 class="exp-header">Being tired does not feel good.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg"\
+    '<h1 class="exp-header">Tired?</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg"\
         alt="computer rocket image"><ul class="exp-text"><li>20 minutes is the sweet spot for a power nap</li><li>Naps can leave you feeling more alert, energetic, and productive, however, napping 30-60 minutes can leave you even groggier.</li><li>For maximum efficiency, rest in a cool, dark room free from distractions.</li> </ul>',
     '<h1 class="exp-header">Social Media Detox.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Another option is to disable an app to prevent yourself from using it.</li><li>Turn off your phone or put it in another room to limit the urge to go check your phone.</li> </ul>',
     '<h1 class="exp-header">Quality Time.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Allows you to spend time with people you care about.</li><li>Sit back and relax for a couple of hours enjoying time with your friends and family, or even just by yourself. You deserve a break.</li> </ul>',
-    '<h1 class="exp-header">Journal.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>It is important to be aware of your thoughts and acknowledging how you feel. </li><li>Journaling can calm your thoughts down a bit and ease your stress</li> </ul>',
-    'It helps replicate the feeling of going outside frequently.',
-    'It allows you to see other perspectives.',
-    'It can be a change of activity and you get a result of a clean workspace.',
-    'Going outside can keep your mind off other things.',
-    'It can make you excited about the day.',
-    'Compliments can boost someone\'s self esteem.',
-    'Decide what you are okay with doing.',
-    'You never truly know how they are doing until you find out.',
-    'Helping others is nice but you are also important.',
-    'Make the most of your situation..',
+    '<h1 class="exp-header">Journal</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>It is important to be aware of your thoughts and acknowledging how you feel. </li><li>Journaling can calm your thoughts down a bit and ease your stress</li> </ul>',
+    '<h1 class="exp-header">News Detox</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Seeing bad news can be detrimental to your mental health.</li><li>If you want to still be in the loop of current events, we would suggest limiting your time spent on the news, or talking to a friend about current events. This can foster growth and you can learn new perspectives.</li> </ul>',
+    '<h1 class="exp-header">Clean!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>It can be a change of activity and you get a result of a clean workspace.</li><li>Cleaning your work space can allow for deeper focus due to working in an uncluttered area + it will give you a sense of accomplishment.</li> </ul>',
+    '<h1 class="exp-header">Step Outside!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Go for a walk/run and enjoy the outdoors if you can. Taking a breath of fresh air can be very relaxing and ease your stress a bit.</li><li>Since we are stuck in quarantine, it is super important to still be moving around.</li> </ul>',
+    '<h1 class="exp-header">Plan</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Similar to planning out your day, writing down one goal make you excited about the day and make you more likely to work towards that goal.</li><li>Crossing off that goal at the end of the day will give you a huge sense of accomplishment. Even if you do not complete it, you still worked towards a goal!</li> </ul>',
+    '<h1 class="exp-header">No!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Don\'t be afraid to say no!</li><li>It\'s important to be able to set boundaries, whether its social or work related.</li> </ul>',
+    '<h1 class="exp-header">Check In</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Reach out to friends and family. It will be super nice to catch up with them and see how they\'re doing.</li><li>Many of us are stuck in isolation and would definitely appreciate you reaching out to them.</li> </ul>',
+    '<h1 class="exp-header">The Present</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>It may be hard to see right now, but there will be a time where the problems you\'re facing will subside.</li><li>It\'s important to be able to stay in the present rather than worrying about the past or future. It\'s way easier said than done, but focus on the present by pushing out negative thoughts and trying to immerse yourself in your work or activity you enjoy.</li> </ul>',
+
     'It can boost you mental health.',
     'It is like taking a mental break.',
-    'Keeping people important to you is important.',
     'It can help you be motivated to do work.',
 ];
 
@@ -183,7 +176,7 @@ function displayMental() {
 function expandMental() {
   let div=document.querySelector('#exp');
   let mental=`<div class='explanation'>
-  <p>${mentalExp[0]}</p>
+  <p>${mentalExp[displayMental()]}</p>
   </div>`;
   div.innerHTML=mental;
 }
