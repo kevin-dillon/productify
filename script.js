@@ -134,7 +134,6 @@ let mentalEntries = [
     'Check in on friends and family.',
     'Take in the present.',
     'Stand up.',
-    'Close your eyes for 20 seconds.',
     'Develop a work buddy system to keep yourselves accountable.',
 ];
 
@@ -157,10 +156,8 @@ let mentalExp = [
     '<h1 class="exp-header">No!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Don\'t be afraid to say no!</li><li>It\'s important to be able to set boundaries, whether its social or work related.</li> </ul>',
     '<h1 class="exp-header">Check In</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Reach out to friends and family. It will be super nice to catch up with them and see how they\'re doing.</li><li>Many of us are stuck in isolation and would definitely appreciate you reaching out to them.</li> </ul>',
     '<h1 class="exp-header">The Present</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>It may be hard to see right now, but there will be a time where the problems you\'re facing will subside.</li><li>It\'s important to be able to stay in the present rather than worrying about the past or future. It\'s way easier said than done, but focus on the present by pushing out negative thoughts and trying to immerse yourself in your work or activity you enjoy.</li> </ul>',
-
-    'It can boost you mental health.',
-    'It is like taking a mental break.',
-    'It can help you be motivated to do work.',
+    '<h1 class="exp-header">Stand Up!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>It sounds, and is super simple. Stand up and do some stretches or walk around your room.</li><li>A professor at Waterloo says individuals should be standing up for 30 mins per hour to get health benefits.</li><li>Sitting for long periods of time is detrimental to health. Your quads can become tight and posture can worsen.</ul>',
+    '<h1 class="exp-header">Accountability</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Having a study buddy or friend to keep you accountable can help you be motivated to do work.</li><li>You can be each other\'s cheerleaders and encourage them to be more productive.</li> </ul>',
 ];
 
 function displayMental() {
