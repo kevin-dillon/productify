@@ -108,19 +108,19 @@ let physicalEntries=[
 ];
 
 let physicalExp=[
-    'Exercising is a great way to improve energy levels. Doing so with family helps you stay motivated and connects you to each other.',
-    'For many people, their days are very sedentary. Walking around while still doing work allows you to maximize your time while allowing you to change positions.',
-    'Let out your emotions and dance to your favorite songs to get your blood flowing and take a break from your screen.',
-    'Watch some Youtube workout videos to learn which exercises you can do at home.',
-    'It can be difficult to find time to exercise. Running on the treadmill or stretching while watching TV helps you decompress after a long day while still staying active.',
-    'Feed your brain with the nutrients it needs.',
-    'Water is essential to heightening your brain function and maintaining energy levels.',
-    'Taking breaks will help you focus better.',
-    "If you're not sure what to do for exercise, following along with an instructional video from trained professionals will help you stay active and connect with other people.",
-    'Opt in for a standing desk or move to a different location to work every once in a while. Take a break to spend time with those around you to limit your screen time as well.',
-    'These foods stay in your bloodstream for longer periods of time and are harder to break down. Opt for protein instead.',
-    'Limit your risk of getting sick by making sure points of contact are cleaned regularly.',
-    'Carbohydrates are absorbed immediately while fats take longer to break down, thereby sustaining your energy for longer. Examples of fat-rich foods include nuts, seeds, avocado, eggs, and olives.',
+    '<h1 class="exp-header">Connect through physical activity.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/194/194868.svg" alt="bicycle"><ul class="exp-text"><li>Exercising is a great way to improve energy levels</li><li>Doing so with family helps you stay motivated and connects you to each other</li> </ul>',
+    '<h1 class="exp-header">Work while standing.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2943/2943276.svg" alt="ribbon with thumbs up"><ul class="exp-text"><li>For many people, long days are spent sitting</li><li>Walking around while still doing work allows you to maximize your time and move around</li> </ul>',
+    '<h1 class="exp-header">Dance it out.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2563/2563214.svg" alt="dance party"><ul class="exp-text"><li>Express your emotions creatively</li><li>Dance to your favorite songs to get your blood flowing and take a break from your screen</li> </ul>',
+    '<h1 class="exp-header">Short Exercise.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2943/2943149.svg" alt="calendar with clock"><ul class="exp-text"><li>Watch some Youtube workout videos to learn which exercises you can do at home</li><li>Schedule times to video chat with friends to workout together</li> </ul>',
+    '<h1 class="exp-header">TV Time.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2916/2916349.svg" alt="tv set"><ul class="exp-text"><li>It can be difficult to find time to exercise</li><li>Running on the treadmill or stretching while watching TV helps you decompress after a long day while still staying active</li> </ul>',
+    '<h1 class="exp-header">Brainpower.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2562/2562483.svg" alt="plant"><ul class="exp-text"><li>Feed your brain the nutrients it needs</li><li>A diet rich in vegetables and fruits can lower blood pressure, reduce the risk of heart disease and stroke, and have a positive effect upon blood sugar, which can help keep appetite in check</li> </ul>',
+    '<h1 class="exp-header">Hydrate or diedrate.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2764/2764108.svg" alt="water pitcher and two glasses"><ul class="exp-text"><li>Water is essential to heightening your brain function and maintaining energy levels</li><li>Drinking 8 cups a day promotes healthy skin and helps maintain blood pressure</li> </ul>',
+    '<h1 class="exp-header">Break time.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2943/2943445.svg" alt="sunglasses"><ul class="exp-text"><li>Taking breaks will help you focus better</li><li>Taking frequent breaks helps reduce eye strain and other ergonomic problems</li> </ul>',
+    '<h1 class="exp-header">Workout videos.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2943/2943304.svg" alt="computer playing music"><ul class="exp-text"><li>If you\'re not sure what to do for exercise, following along with an instructional video from trained professionals will help you stay active and connect with other people</li><li>Exercise from the comfort of your own home</li> </ul>',
+    '<h1 class="exp-header">Stand up.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2943/2943302.svg" alt="omputer to notepad"><ul class="exp-text"><li>Opt in for a standing desk or move to a different location to work every once in a while</li><li>Take a break to spend time with those around you while limiting your screen time</li> </ul>',
+    '<h1 class="exp-header">Food consciousness.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2915/2915979.svg" alt="a slice of cake"><ul class="exp-text"><li>These foods stay in your bloodstream for longer periods of time and are harder to break down</li><li>Opt for protein instead</li> </ul>',
+    '<h1 class="exp-header">Clean hands.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2890/2890942.svg" alt="red soap bubbles"><ul class="exp-text"><li>Limit your risk of getting sick by making sure common points of contact are cleaned regularly</li><li>Songs you can sing to measure these 20 seconds include the choruses of Beyonce\'s "Love on Top" and Dolly Parton\'s "Jolene"</li> </ul>',
+    '<h1 class="exp-header">Food portioning.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2915/2915998.svg" alt="two donuts"><ul class="exp-text"><li>Carbohydrates are absorbed immediately while fats take longer to break down, thereby sustaining your energy for longer</li><li>Examples of fat-rich foods include nuts, seeds, avocado, eggs, and olives</li> </ul>',
 ];
 
 function displayPhysical() {
@@ -135,7 +135,7 @@ function displayPhysical() {
 
 function expandPhysical() {
   let div=document.querySelector('#expPhys');
-  let physical=`<div class='card bg-transparent'>
+  let physical=`<div class='explanation'>
   <p>${physicalExp[displayPhysical()]}</p>
   </div>`;
   div.innerHTML=physical;
