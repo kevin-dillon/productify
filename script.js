@@ -142,7 +142,7 @@ let mentalEntries = [
 ];
 
 let mentalExp = [
-    '<h1 class="exp-header">It can reduce stress.</h1> <img class="exp-img float-left raiser" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><p class="exp-text">explanation explanation explanation explanation explanation explanation explanation explanation explanation explanation ',
+    '<h1 class="exp-header">It can reduce stress.</h1> <center><img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"></center><p class="exp-text">explanation explanation explanation explanation explanation explanation explanation explanation explanation explanation ',
     'Connecting with people again can help your mental health.',
     'Being tired does not feel good.',
     'Another option is to disable an app to prevent yourself from using it.',
