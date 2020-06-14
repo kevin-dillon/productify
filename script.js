@@ -142,12 +142,12 @@ let mentalEntries = [
 ];
 
 let mentalExp = [
-    '<h1 class="exp-header">It can reduce stress.</h1> <center><img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"></center><p class="exp-text">explanation explanation explanation explanation explanation explanation explanation explanation explanation explanation ',
-    'Connecting with people again can help your mental health.',
-    'Being tired does not feel good.',
-    'Another option is to disable an app to prevent yourself from using it.',
-    'It allows you to spend time with people you care about.',
-    'People have good and bad times, and writing it down can help you feel better about your situation.',
+    '<h1 class="exp-header">It can reduce stress.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Knowing what you need to to in advance is key to productivity</li><li>You will  be less stressed since you already have a plan</li> </ul>',
+    '<h1 class="exp-header">Reconnecting.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Connecting with people again can help your mental health.</li><li>You can rekindle past friendships and talk to someone new</li> </ul>',
+    '<h1 class="exp-header">Being tired does not feel good.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>20 minutes is the sweet spot for a power nap</li><li>Naps can leave you feeling more alert, energetic, and productive, however, napping 30-60 minutes can leave you even groggier.</li><li>For maximum efficiency, rest in a cool, dark room free from distractions.</li> </ul>',
+    '<h1 class="exp-header">Social Media Detox.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Another option is to disable an app to prevent yourself from using it.</li><li>Turn off your phone or put it in another room to limit the urge to go check your phone.</li> </ul>',
+    '<h1 class="exp-header">Quality Time.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>Allows you to spend time with people you care about.</li><li>Sit back and relax for a couple of hours enjoying time with your friends and family, or even just by yourself. You deserve a break.</li> </ul>',
+    '<h1 class="exp-header">Journal.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image"><ul class="exp-text"><li>It is important to be aware of your thoughts and acknowledging how you feel. </li><li>Journaling can calm your thoughts down a bit and ease your stress</li> </ul>',
     'It helps replicate the feeling of going outside frequently.',
     'It allows you to see other perspectives.',
     'It can be a change of activity and you get a result of a clean workspace.',
