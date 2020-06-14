@@ -55,6 +55,7 @@ function displayProductivity() {
     <p>${productivityEntries[index]}</p>
     </div>`;
     div.innerHTML=productivity;
+    return index;
 }
 
 function expandProductivity() {
