@@ -22,6 +22,32 @@ let productivityEntries=[
     'Don’t overextend yourself.',
 ];
 
+let productivityExp=[
+    'Some people work better with no noises, but immersion in ambient music can help reduce anxiety by \
+    allowing people to put aside what is on their mind and focus on their surroundings.',
+    'It is unsustainable.Switching between tasks makes it difficult to tune out distractions and can cause \
+    mental blocks that can slow you down. Ultimately, multitasking results in less effective and efficient \
+    work with decreased mental organizational capabilities.',
+    'If you do not have room to move around, dedicate a specific area for work only.',
+    'You can write on paper or on something like your phone.',
+    'Doing one part is better than doing nothing.',
+    'Noise-cancelling earphones are nice if you can afford them.',
+    'Try not to overwork youself.',
+    'Write this down on your calendar.',
+    'A task can seem less daunting from this perspective.',
+    'Set notifications a week before a deadline,',
+    'It is more time efficient if you make a mistake.',
+    'You do not have to memorize all of them, but adding a couple frequently used shortcuts to your repertoire can be beneficial.',
+    'There are variations of this method, see which one works best for you.',
+    'Completing any task, even a small one, is an accomplishment.',
+    'This does not apply to when taking tests/exams, get the easier questions out of the way first in that situation.',
+    'Some people get phantom phone buzzes, where they feel notifications when there is not one.',
+    'Another option is text-to-speech..',
+    'It can be hard for your mind to adjust to this.',
+    'Most newsletter emails have an "unsubscribe" button at the button of the page.',
+    'Burning youself out is a real thing, and can have immediate consequences.',
+];
+
 function displayProductivity() {
     let index=Math.floor(Math.random()*productivityEntries.length);
     let div=document.querySelector('#productivity');
@@ -30,6 +56,14 @@ function displayProductivity() {
     </div>`;
     div.innerHTML=productivity;
 }
+
+function expandProductivity() {
+    let div=document.querySelector('#expProductivity');
+    let productivity=`<div class='card'>
+    <p>${productivityExp[displayProductivity()]}</p>
+    </div>`;
+    div.innerHTML=productivity;
+  }
 
 // PHYSICAL HEALTH
 let physicalEntries=[
