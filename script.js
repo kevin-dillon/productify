@@ -23,8 +23,11 @@ let productivityEntries=[
 ];
 
 let productivityExp=[
-    'Some people work better with no noises.',
-    'It is unsustainable.',
+    'Some people work better with no noises, but immersion in ambient music can help reduce anxiety by \
+    allowing people to put aside what is on their mind and focus on their surroundings.',
+    'It is unsustainable.Switching between tasks makes it difficult to tune out distractions and can cause \
+    mental blocks that can slow you down. Ultimately, multitasking results in less effective and efficient \
+    work with decreased mental organizational capabilities.',
     'If you do not have room to move around, dedicate a specific area for work only.',
     'You can write on paper or on something like your phone.',
     'Doing one part is better than doing nothing.',
@@ -139,26 +142,26 @@ let mentalEntries = [
 ];
 
 let mentalExp = [
-    'Write down your schedule for your day.',
-    'Reach out to a friend you haven’t spoken to in a while (conversation starters: what you’ve been doing in quarantine, how you’ve (re)designed your workspace, what you’re looking forward to once quarantine is over, have you picked up any new hobbies, etc.)',
-    'Take a nap.',
-    'Log off of social media for the rest of the day (if your work permits).',
-    'Schedule a movie night with friends or family.',
-    'Write down your thoughts in a journal.',
-    'Get dressed.',
-    'Block news channels on your devices and ask your friends to give you a quick debriefing.',
-    'Clean your work area.',
-    'Leave the house (while staying socially distant).',
-    'Write down what you want to achieve today.',
-    'Give your friend a compliment.',
-    'Say no. Set boundaries.',
-    'Check in on friends and family.',
-    'Take some time for yourself.',
-    'Take in the present.',
-    'Stand up.',
-    'Close your eyes for 20 seconds.',
-    'Keep in touch with your friends and family.',
-    'Develop a work buddy system to keep yourselves accountable.',
+  'Writing down your schedule implements structure in your day, which can help you stay motivated.',
+  'wow.',
+  'naptime.',
+  'no social media.',
+  'where do cows like to go? to the moovies.',
+  'journal.',
+  'put on clothes.',
+  'no news.',
+  'tidy.',
+  'go outside.',
+  'goals.',
+  'compliment.',
+  '<h1>Explanation</h1><br><p class = "exp-text">some explanationsome explanationsome explanationsome explanationsome explanationsome explanationsome explanation</p><img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image">' ,
+  'Check in.',
+  'Take some time for yourself.',
+  'Take in the present.',
+  'Stand up.',
+  'Close your eyes for 20 seconds.',
+  'Keep in touch with your friends and family.',
+  'Develop a work buddy system to keep yourselves accountable.',
 ];
 
 function displayMental() {
