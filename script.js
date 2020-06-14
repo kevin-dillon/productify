@@ -120,7 +120,7 @@ let mentalExp = [
   'go outside.',
   'goals.',
   'compliment.',
-  'no.',
+  '<h1>Explanation</h1><br><p class = "exp-text">some explanationsome explanationsome explanationsome explanationsome explanationsome explanationsome explanation</p><img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image">' ,
   'Check in.',
   'Take some time for yourself.',
   'Take in the present.',
