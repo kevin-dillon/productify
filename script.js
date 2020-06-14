@@ -23,51 +23,51 @@ let productivityEntries=[
 ];
 
 let productivityExp=[
-  '<h1 class="exp-header">Planning ahead</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+  '<h1 class="exp-header">Planning ahead</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2904/2904859.svg" \
        ><ul class="exp-text"><li>Knowing what you need to to in advance is key to productivity</li><li>\
       You will be less stressed since you already have a plan</li> </ul>',
       '<h1 class="exp-header">Focus time</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
       ><ul class="exp-text"><li>Some people work better with no noises, but immersion in ambient music can help reduce anxiety by \
     allowing people to put aside what is on their mind and focus on their surroundings.</li> </ul>',
-    '<h1 class="exp-header">One at a time.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+    '<h1 class="exp-header">One at a time.</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2934/2934539.svg" \
        ><ul class="exp-text"><li>It is unsustainable.</li><li>Switching between tasks makes it difficult to tune out distractions and can cause \
     mental blocks that can slow you down.</li><li>Ultimately, multitasking results in less effective and efficient \
     work with decreased mental organizational capabilities.</li> </ul>',
-    '<h1 class="exp-header">Work area</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+    '<h1 class="exp-header">Work area</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/3063/3063824.svg" \
        ><ul class="exp-text"><li>If you do not have room to move around, dedicate a specific area for work only.</li> </ul>',
-       '<h1 class="exp-header">Write it down</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Write it down</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/3075/3075993.svg" \
        ><ul class="exp-text"><li>You can write on paper or on something like your phone.</li> </ul>',
-       '<h1 class="exp-header">One > Nothing</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">One > Nothing</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/862/862913.svg" \
        ><ul class="exp-text"><li>Doing one part is better than doing nothing.</li> </ul>',
-       '<h1 class="exp-header">Keep it quiet</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Keep it quiet</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2972/2972298.svg" \
        ><ul class="exp-text"><li>Noise-cancelling earphones are nice if you can afford them.</li> </ul>',
-       '<h1 class="exp-header">Work enough, but not too much</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Work enough, but not too much</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2750/2750315.svg" \
        ><ul class="exp-text"><li>Try not to overwork youself.</li> </ul>',
-       '<h1 class="exp-header">Keep a calendar</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Keep a calendar</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/3079/3079121.svg" \
        ><ul class="exp-text"><li>Write this down on your calendar.</li> </ul>',
-       '<h1 class="exp-header">Change perspectives</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Change perspectives</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2919/2919722.svg" \
        ><ul class="exp-text"><li>A task can seem less daunting from this perspective.</li> </ul>',
-       '<h1 class="exp-header">Get the dates in your head!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Get the dates in your head!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/3064/3064565.svg" \
        ><ul class="exp-text"><li>Set notifications a week before a deadline.</li> </ul>',
-       '<h1 class="exp-header">Efficiency is key</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Efficiency is key</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2934/2934383.svg" \
        ><ul class="exp-text"><li>It is more time efficient if you make a mistake.</li> </ul>',
-       '<h1 class="exp-header">Keyboard Shortcuts</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Keyboard Shortcuts</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/915/915824.svg" \
        ><ul class="exp-text"><li>You do not have to memorize all of them, but adding a couple frequently used shortcuts to your repertoire can be beneficial.</li> </ul>',
-       '<h1 class="exp-header">Pomodor Technique</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Pomodor Technique</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/42/42246.svg" \
        ><ul class="exp-text"><li>There are variations of this method, see which one works best for you.</li> </ul>',
-    '<h1 class="exp-header">One at a time</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+    '<h1 class="exp-header">One at a time</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/3056/3056206.svg" \
        ><ul class="exp-text"><li>Completing any task, even a small one, is an accomplishment.</li> </ul>',
-       '<h1 class="exp-header">Get it out of the way</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Get it out of the way</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/3023/3023498.svg" \
        ><ul class="exp-text"><li>This does not apply to when taking tests/exams, get the easier questions out of the way first in that situation.</li> </ul>',
-       '<h1 class="exp-header">Limit notifications!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Limit notifications!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2634/2634254.svg" \
        ><ul class="exp-text"><li>Some people get phantom phone buzzes, where they feel notifications when there is not one.',
-       '<h1 class="exp-header">Record yourself!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Record yourself!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/3064/3064565.svg" \
        ><ul class="exp-text"><li>Another option is text-to-speech.</li> </ul>',
-       '<h1 class="exp-header">Keep it consistent</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+       '<h1 class="exp-header">Keep it consistent</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/2891/2891474.svg" \
        ><ul class="exp-text"><li>It can be hard for your mind to adjust to this.</li> </ul>',
-    '<h1 class="exp-header">Unsubscribe!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+    '<h1 class="exp-header">Unsubscribe!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/561/561127.svg" \
        ><ul class="exp-text"><li>Most newsletter emails have an "unsubscribe" button at the button of the page.</li> </ul>',
-    '<h1 class="exp-header">Do not burn out!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/179/179979.svg" \
+    '<h1 class="exp-header">Do not burn out!</h1> <img class="exp-img" src="https://image.flaticon.com/icons/svg/3043/3043608.svg" \
        ><ul class="exp-text"><li>Burning youself out is a real thing, and can have immediate consequences.</li> </ul>',
 ];
 
