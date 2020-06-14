@@ -5,6 +5,8 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 900;
 }
 
+
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -110,7 +112,7 @@ body {
 
 .explanation{
   background-color: #e5dfdf;
-  padding: 7% 15%;
+  padding: 7% 25%;
 }
 
 .card {
@@ -119,12 +121,12 @@ body {
 
 .exp-img{
   height: 150px;
-  width: 150px
-  align: right;
- margin-right: 300px;
+  width: 150px;
+  float: right;
+  margin-left: 500px;
 }
 
 .exp-text {
   align: left;
-  width: 25%
+  width: 50%
 }

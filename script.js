@@ -142,7 +142,7 @@ let mentalEntries = [
 ];
 
 let mentalExp = [
-    'It can reduce stress.',
+    '<h1>It can reduce stress.</h1> <br><p class="exp-text">explanation explanation explanation explanation explanation explanation explanation explanation explanation explanation <img class="exp-img" src="https://image.flaticon.com/icons/svg/2906/2906010.svg" alt="computer rocket image">',
     'Connecting with people again can help your mental health.',
     'Being tired does not feel good.',
     'Another option is to disable an app to prevent yourself from using it.',
@@ -157,7 +157,7 @@ let mentalExp = [
     'Decide what you are okay with doing.',
     'You never truly know how they are doing until you find out.',
     'Helping others is nice but you are also important.',
-    'Mast the most of your situation..',
+    'Make the most of your situation..',
     'It can boost you mental health.',
     'It is like taking a mental break.',
     'Keeping people important to you is important.',
@@ -177,7 +177,7 @@ function displayMental() {
 function expandMental() {
   let div=document.querySelector('#exp');
   let mental=`<div class='explanation'>
-  <p>${mentalExp[displayMental()]}</p>
+  <p>${mentalExp[0]}</p>
   </div>`;
   div.innerHTML=mental;
 }
