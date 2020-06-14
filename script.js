@@ -23,8 +23,11 @@ let productivityEntries=[
 ];
 
 let productivityExp=[
-    'Some people work better with no noises.',
-    'It is unsustainable.',
+    'Some people work better with no noises, but immersion in ambient music can help reduce anxiety by \
+    allowing people to put aside what is on their mind and focus on their surroundings.',
+    'It is unsustainable.Switching between tasks makes it difficult to tune out distractions and can cause \
+    mental blocks that can slow you down. Ultimately, multitasking results in less effective and efficient \
+    work with decreased mental organizational capabilities.',
     'If you do not have room to move around, dedicate a specific area for work only.',
     'You can write on paper or on something like your phone.',
     'Doing one part is better than doing nothing.',
