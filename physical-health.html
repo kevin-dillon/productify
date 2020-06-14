@@ -26,6 +26,7 @@
     <div class="card mx-auto" style="width: 60rem;">
     <body>
         <div class="content">
+          <body onload="expandPhysical();"></body>
           <div class="text-dark" id="physical"></div>
             <div class="card">
               <button onclick="expandPhysical()" class="btn">Generate</button>
@@ -40,7 +41,9 @@
             </div>
         </div>
     </body>
-    <script src="script.js"></script>
+    <script src="script.js">
+      window.onload = expandPhysical();
+    </script>
   </div>
   </section>
 </html>

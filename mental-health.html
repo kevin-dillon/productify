@@ -26,6 +26,7 @@
     <div class="card mx-auto" style="width: 60rem;">
     <body>
         <div class="content">
+          <body onload="expandMental();"></body>
           <div class="text-dark" id="mental"></div>
             <div class="card">
               <button onclick="expandMental()" class="btn">Generate</button>
@@ -40,7 +41,9 @@
         </div>
 
     </body>
-    <script src="script.js"></script>
+    <script src="script.js">
+      window.onload = expandMental();
+    </script>
   </div>
   </section>
 </html>
