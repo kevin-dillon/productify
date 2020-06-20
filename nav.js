@@ -4,9 +4,6 @@ div.setAttribute('class', 'navs block bc2');
 div.innerHTML = `
 <section id="title">
       <div class="container-fluid">
-      <head>
-            <link rel="shortcut icon" href="../images/favicon.ico">
-      </head>
         <!-- Nav Bar -->
 
         <nav class="navbar navbar-expand-lg navbar-dark">
